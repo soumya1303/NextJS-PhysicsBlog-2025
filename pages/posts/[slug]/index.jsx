@@ -1,4 +1,4 @@
-import PostContent from "../../../components/postiemdetails/postContent";
+import PostContent from "../../../components/postiemdetails/PostContent";
 import matter from "gray-matter";
 
 import Head from "next/head";
