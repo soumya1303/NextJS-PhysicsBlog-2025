@@ -46,7 +46,7 @@ const ContactForm=()=>{
             const userIput=Object.fromEntries(formData.entries());
             
                 try {
-                        const resp=await fetch("http://localhost:3000/api/postComment", {
+                        const resp=await fetch(`${process.env.api_server_route}/postComment`, {
                             method:"POST",
                             headers:{
                                 "Content-Type":"application/json"

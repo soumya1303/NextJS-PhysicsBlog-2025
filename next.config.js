@@ -7,7 +7,8 @@ module.exports = (phase)=>{
             {
                 env: {
                 mongo_conn_str:"mongodb://127.0.0.1:27017/",
-                mongo_schema:"fs25DB"
+                mongo_schema:"fs25DB",
+                api_server_route:"http://localhost:3000/api"
                 }
             }
         )
@@ -17,7 +18,8 @@ module.exports = (phase)=>{
         {
             env: {
                 mongo_conn_str:"mongodb+srv://db-user:password0@cluster0.9sys7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
-                mongo_schema:"fs25DB"
+                mongo_schema:"fs25DB",
+                api_server_route:"https://next-js-physics-blog-2025-aels.vercel.app/api"
                 }
         }
         )
